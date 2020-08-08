@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<layout>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+
     <TextView
         style="@style/PageHeader"
         android:text="@string/manage_the_wheels" />
+
 </LinearLayout>
+</layout>
